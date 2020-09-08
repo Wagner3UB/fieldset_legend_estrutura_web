@@ -1,0 +1,81 @@
+/* 
+
+Criado por Wagner Trezub
+instagram @estrutura_web
+contato: trezub.w@gmail.com
+
+*/
+
+
+/*GERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+body {
+  background: #000;
+}
+#estrutura_web {
+  width: 600px;
+  margin: auto;
+}
+#estrutura_web h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #F9ED32;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+/*FIELDSET e LEGEND*/
+
+.campo_contato {
+  border: dashed 2px #F9ED32 ;
+}
+.campo_contato legend {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #F9ED32;
+}
+.campo_contato .campo_form {
+  border-bottom: solid 1px #f9ec324d;
+  margin-bottom: 15px;
+}
+.campo_contato .campo_form::placeholder {
+  color: #f9ec324d;
+}
+
+
+/*CHECKBOX e LABEL*/
+
+.checkbox {
+  cursor: pointer;
+}
+.checkbox input{
+  display: inline-block;
+  width: 20px;
+} 
+#estrutura_web button {
+  background: #F9ED32;
+  width: unset;
+  padding: 10px 50px;
+  margin-top: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
